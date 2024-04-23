@@ -1,0 +1,40 @@
+
+body {
+    background-image: linear-gradient(to right, rgb(2, 2, 85), rgb(5, 5, 5));
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* display: grid;
+    place-items: center;
+    margin: 0;
+    height: 100vh; */
+}  
+
+
+.movie {
+    width: 50%;
+    color: white;
+    padding: 20px 38px 41px 180px;
+    box-sizing: border-box;
+    background: url("/img/superman.png") 20px 40px/ 150px 235px no-repeat, url("/img/super2.png") 0% 0%/cover
+}
+
+
+.movie_description {
+    font-size: 1.5em;
+}
+
+
+.movie_button {
+    color: #fff;
+    font-size: 20px;
+    padding: 4px 20px;
+    background-color: #EB383B;
+    margin-top: 30px;
+    border: 0;
+}
+
+
+

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(88, 88, 39, 0.784);
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+section{
+    display: flex;
+    width:900px;
+    height:600px;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: center;
+
+}
+.image img {
+    width: 500px;
+    height: 500px;
+    align-items: left;
+    height:100%;
+    border-radius: 20px;
+}
+.textoo{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 70px;
+    height: 100%;
+
+    .perfu{ font-family: "Josefin Slab", serif;}
+    .titulo{font-family: "Brygada 1918", serif;}
+    .texto{font-family: "Shippori Mincho", serif;}
+    .tach{text-decoration: line-through;}
+    
+}
+
+
+.botoncito button{
+    margin-top: 100px0;
+    margin-left: 100px;
+    background-color: orange;
+    width: 50%;
+}

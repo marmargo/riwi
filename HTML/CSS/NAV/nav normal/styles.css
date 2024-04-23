@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+    
+}
+
+.navar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(183, 183, 121);
+    
+}
+.img2{
+    height: 70px;
+    width: 70px;
+    border-radius: 70%;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+.link{
+    margin-right:50px;
+    margin-top: 20px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+      }
+.link1{
+    color: black;
+    font-size: 30px;
+}
+      
+
+
+    

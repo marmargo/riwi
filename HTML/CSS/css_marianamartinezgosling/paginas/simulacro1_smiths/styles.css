@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+header{
+    border: solid 1px black;
+    position: relative;
+    height: 100%;
+}
+
+main{
+    background: rgb(238,234,241);
+    background: linear-gradient(90deg, rgba(238,234,241,1) 0%, rgba(208,194,194,1) 50%, rgba(9,6,1,1) 100%);
+}
+
+.nava{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.icon{
+    color: white;
+    margin-right: ;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-right: 700px;
+    
+}
+
+.links a{
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    
+}
+
+.video{
+width: 1500px;
+height: 700px;
+}
+
+#albums, .albums2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#albums img, .albums2 img{
+    width:300px;
+    display: flex;
+    flex-direction:row;
+    padding: 1em;
+}
+
+.caption{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.boton{
+    width: 50px;
+    position: relative;
+    left: 40%;
+    color: pink;
+}
+
+.boton:hover{
+    background-color: black;
+   
+
+}
+
+.texto{
+    font-size:150px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    border-top: solid 5px black;
+    border-bottom: solid 5px black;
+
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+

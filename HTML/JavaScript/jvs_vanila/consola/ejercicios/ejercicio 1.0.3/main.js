@@ -1,0 +1,18 @@
+const sociales=prompt("ingresa la nota de sociales de pp")
+const ciencias=prompt("ingresa la nota de ciencias de pp")
+const matematicas=prompt("ingresa la nota de matematicas de pp")
+const etica=prompt("ingrese la nota de etica de pp")
+const politica=prompt("ingresa la nota de politica de pp")
+
+console.group()
+console.info("notas")
+console.info(sociales)
+console.info(ciencias)
+console.info(matematicas)
+console.info(etica)
+console.info(politica)
+console.groupEnd()
+
+let suma= (sociales+ciencias+matematicas+etica+politica)
+let promedio=(suma/2)
+alert("el resultado es " + promedio)

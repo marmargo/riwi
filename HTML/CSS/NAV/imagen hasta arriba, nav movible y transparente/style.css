@@ -1,0 +1,47 @@
+/* para no dejar bordes en la parte superior de la hoja */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+header{
+    border: solid 1px black;
+    position: relative;
+    height: 100%;
+    
+}
+  
+.titulo{
+    font-family: pacifico;
+    position: relative;
+    left: -600px;
+}
+
+.navArriba{
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    
+}
+
+.logo{
+    width: 150px;
+    
+}
+ .img{
+    width: 100%;
+    opacity: 45%; 
+}
