@@ -1,5 +1,10 @@
 @import url("./normalize.css");
 
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+
 /* navs */
 .navbar{
 background: rgb(86,216,134);
@@ -103,8 +108,8 @@ justify-content: space-around;
   }
 
   body{
+    background-image: url(/public/img/fondo.avif);
     
-    background-color: #e5eec1;
   }
 
   .cards{
@@ -132,4 +137,56 @@ justify-content: space-around;
   }
   h2{font-family: "Shadows Into Light", cursive;
 
+  }
+
+  .tituregis{
+    font-family: "Shadows Into Light", cursive;
+    color: white;
+    font-size: 50px;
+  }
+
+  footer{
+    background: rgb(229,238,193);
+background: linear-gradient(0deg, rgba(229,238,193,1) 0%, rgba(229,238,193,1) 100%);
+    
+  }
+
+  .formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 40px;
+  }
+
+  .container{
+    max-width: 6500px;
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgb(84,211,135);
+background: radial-gradient(circle, rgba(84,211,135,1) 0%, rgba(85,124,131,1) 100%);
+box-shadow: 0 15px 20px black;
+  }
+
+  .input-box input{
+    height: 40px;
+    width: 95%;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+  }
+
+  .botonfor{
+    width: 50%;
+    margin-top: 15px;
+    padding:10px 20px;
+    display: block;
+    font-size: 20px;
+    color:black;
+    border: none;
+    border-radius:5px ;
+    background-color: #e5eec1;
+    
   }
