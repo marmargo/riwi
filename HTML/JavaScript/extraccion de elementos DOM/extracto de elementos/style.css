@@ -1,0 +1,16 @@
+@import url(normalize.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&family=Shadows+Into+Light&family=Slabo+27px&display=swap');
+
+*     {font-family: "Shadows Into Light", cursive;}
+
+.titulo1{
+  
+    font-family: "Shadows Into Light", cursive;
+  
+  }
+
+.seccion2{
+  margin-bottom: 10px;
+  
+}

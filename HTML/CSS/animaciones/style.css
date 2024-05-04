@@ -1,0 +1,70 @@
+*{
+    box-sizing:border-box ;
+    margin: 0;
+    padding: 0;
+}
+
+.circle{
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    transition: background linear 2s;
+    animation-name: changeColor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+/* .circle:hover{
+    background-color: blue;
+
+} */
+
+/* @keyframes la estuctura logica que ayuda hacer las animaciones que quiero que haga la animacion  */
+
+@keyframes changeColor{
+    0% {
+        transform: translate(0);
+        background-color: rgb(157, 24, 111);
+    }
+    50%{
+        transform: translate(800%);
+        background-color:rgb(86, 86, 206);
+    }
+    100% {
+         background-color: rgb(226, 43, 128);
+    }
+}
+
+.circle1{
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    animation: 2s  changePosition infinite;
+
+}
+
+@keyframes changePosition{
+    0%{
+        transform: translate(0);
+        background-color: rgb(226, 43, 192);
+    }
+    25%{
+        transform: translate(100%);
+    }
+    /* con el 50% da triagulo */
+    50%{
+        transform: translate(100%,100%);
+        background-color:rgb(108, 108, 212) ; 
+    }
+    75%{
+        transform: translate(0,100%);
+        background-color: rgb(226, 43, 192)
+    }
+  
+}
