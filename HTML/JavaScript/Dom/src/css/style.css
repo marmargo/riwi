@@ -18,25 +18,26 @@ justify-content: space-around;
     
 }
 
-/* cards rotates */
-/* .lunai {
+
+.lunai {
     width: 200px;
 }
-/* tobias */
-/* .tobii {
-    width: 200px;
-} */
+ tobias 
+.tobii {
+    width: 8px;
+    height: 80px;
+} 
 
-/* .coloi {
+.coloi {
     width: 200px;
 }
 
 .quesi {
-    width: 200px;
+    width: 85px;
 }
 
 .mangoi {
-    width: 200px;
+    width: 150px;
 }
 
 .perri {
@@ -52,64 +53,83 @@ justify-content: space-around;
 }
 .lului {
     width: 200px;
-} */ */
-
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-color: #e5eec1;
-    
-}
-
-.card{
-    position: relative;
+ } 
+/* gira */
+ .flip-card {
+    background-color:#a2d5ac;
     width: 300px;
-    height: 350px;
-}
-
-.card .face{
+    height: 200px;
+    border: 1px solid #e6e4e1;
+    perspective: 1000px;    
+    color: black;
+     
+  }
+  
+ /* frente y atras */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* hover */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* rota */
+  .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
+    -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: .5s;
-}
+  }
+  
+  /* image */
+  .flip-card-front {
+    background-color: #a2d5ac;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* estilo de atras */
+  .flip-card-back {
+    
+    color: white;
+    transform: rotateY(180deg);
+  }
 
-.card .front{
-    transform: perspective(600px) rotateY(180deg);
-    box-shadow: 0 5px 10px black;
+  body{
+    
+    background-color: #e5eec1;
+  }
 
-}
-
-.card .front img{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.card .front h3{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 45px;
-    line-height: 45px;
-    color: azure;
-    background: black;
-    text-align: center;
-}
-
-.card. back{
-    transform: perspective(600px) rotateY(0deg);
-    background-color: rgb(26, 125, 98);
-    padding: 15px;
-    color: azure;
+  .cards{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-}
+    justify-content: space-around;
+    margin-top: 50px;
+    
+
+  }
+  .cards1{
+    display:flex;
+    margin-top:100px;
+    justify-content: space-around;
+    
+  }
+  .img{
+    margin-top: 20px;
+  }
+  p{
+    margin-top: 20px;
+  }
+
+  h3{
+    margin-top: 20px;
+  }
+  h2{font-family: "Shadows Into Light", cursive;
+
+  }
