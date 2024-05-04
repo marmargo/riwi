@@ -24,7 +24,7 @@ console.log(phone)
 console.groupEnd()
 
 
-console.log("userName:"+ userName + " "+ lastName)
+console.log("userName:"+ userName + " " + lastName)
 console.log("age:", age , mail , )
 
 listCodersGates=["pedro perez","pepito pito"," reynaldo rey"]

@@ -1,7 +1,6 @@
 let myfirstN=2
 let mysecondN="2"
 
-
 console.info(myfirstN*mysecondN)
 console.info(myfirstN-mysecondN)
 console.info(myfirstN + Number(mysecondN) )//funcion para sumas
@@ -77,4 +76,9 @@ console.log(Math.max(1,5,3,9))// toma el mas grande
 console.log(Math.min(1,5,3,9))//toma el mas pequeño 
 
 
-
+// Función para calcular la edad de una mascota del ejercicio de mascotas
+function calcularEdad(fechaNacimiento) {
+    const hoy = new Date();
+    const edad = hoy.getFullYear() - fechaNacimiento.getFullYear();
+    return edad;
+}
