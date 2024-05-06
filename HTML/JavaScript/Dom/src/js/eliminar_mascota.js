@@ -1,4 +1,4 @@
-export let mascotas = [
+let mascotas = [
     {
         nombre: "Luna",
 	imagen: "./public/img/luna.jpg",
@@ -80,3 +80,38 @@ export let mascotas = [
         correo: "lululu@gmail.com"
     }
 ];
+// Función para eliminar una mascota del array
+// function eliminarMascota(nombre) {
+//     const index = mascotas_principales.mascotas.findIndex(mascota => mascota.nombre.toLowerCase() === nombre.toLowerCase());
+//     if (index !== -1) {
+//         mascotas.splice(index, 1);
+//         console.log("Mascota eliminada exitosamente.");
+//     } else {
+//         console.log("Mascota no encontrada.");
+//     }
+// }
+
+// function generarTarjetaMascota(mascota) {
+//     return `
+//        <div class="flip-card">
+//             <div class="flip-card-inner">
+//                 <div class="flip-card-front">
+//                     <h2>${mascota.nombre}</h2> <!-- Aquí agregamos el título en la parte frontal -->
+//                 </div>
+//                 <div class="flip-card-back">
+//                     <h3>${mascota.propietario}</h3> <!-- Aquí repetimos el título en la parte trasera -->
+//                     <p>Documento: ${mascota.documento}, Teléfono: ${mascota.telefono}, Correo: ${mascota.correo}, ${mascota.descripcion}</p>
+//                 </div>
+//             </div>
+//         </div>`;
+//     }
+
+// function agregarTarjetasMascotas() {
+//         const contenedor = document.querySelector('.formulario'); 
+//         mascotas.forEach(mascota => {
+//             const tarjetaHTML = generarTarjetaMascota(mascota);
+//             contenedor.innerHTML += tarjetaHTML;
+//         });
+//     }
+    
+// window.onload = agregarTarjetasMascotas;
